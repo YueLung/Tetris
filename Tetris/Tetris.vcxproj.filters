@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{dd1a04cb-a058-409b-8955-ae8ef4660b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Ctrl">
+      <UniqueIdentifier>{8c01e761-8d11-4599-9311-e8c9076a0ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Block">
+      <UniqueIdentifier>{a1bce22a-d0a8-479d-b523-320259538202}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\View.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Model.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ctrl\Ctrl.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block\Block.cpp">
+      <Filter>src\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ctrl\CtrlInit.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlockFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ctrl\CtrlPlaying.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Event.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block\BlockOfI.cpp">
+      <Filter>src\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block\BlockOfL0.cpp">
+      <Filter>src\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block\BlockOfL1.cpp">
+      <Filter>src\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block\BlockOfN0.cpp">
+      <Filter>src\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block\BlockOfN1.cpp">
+      <Filter>src\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block\BlockOfO.cpp">
+      <Filter>src\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Block\BlockOfT.cpp">
+      <Filter>src\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ctrl\CtrlRoundEnd.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ctrl\CtrlRoundStart.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ctrl\CtrlEnd.cpp">
+      <Filter>src\Ctrl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\View.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Model.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Gamedef.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ctrl\Ctrl.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block\Block.h">
+      <Filter>src\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ctrl\CtrlInit.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BlockFactory.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ctrl\CtrlPlaying.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Event.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block\BlockOfI.h">
+      <Filter>src\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block\BlockOfL0.h">
+      <Filter>src\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block\BlockOfL1.h">
+      <Filter>src\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block\BlockOfN0.h">
+      <Filter>src\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block\BlockOfN1.h">
+      <Filter>src\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block\BlockOfO.h">
+      <Filter>src\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Block\BlockOfT.h">
+      <Filter>src\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ctrl\CtrlRoundEnd.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ctrl\CtrlRoundStart.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ctrl\CtrlEnd.h">
+      <Filter>src\Ctrl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
